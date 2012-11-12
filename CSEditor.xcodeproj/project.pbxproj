@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainWindow.xib */; };
+		256AC3DA0F4B6AC300CF3369 /* CSEditorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* CSEditorAppDelegate.m */; };
+		7F624D8713FD3F3800FD19D3 /* CSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F624D8613FD3F3800FD19D3 /* CSTableViewController.m */; };
+		7F938422140E39B30028E87A /* CSEditColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F938421140E39B30028E87A /* CSEditColorCell.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		CE29E0F2140A14D9008ECF6E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE29E0F1140A14D9008ECF6E /* MainMenu.xib */; };
+		CE4E820114020FA0008A0D8F /* CSRGBATableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4E820014020FA0008A0D8F /* CSRGBATableViewDataSource.m */; };
+		CE9224BF1409142800CDA95E /* CSMainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9224BE1409142800CDA95E /* CSMainWindow.m */; };
+		CE9224C21409677400CDA95E /* CSSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9224C11409677300CDA95E /* CSSlider.m */; };
+		CE94F6A4140B521F00678470 /* CSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE94F6A2140B521F00678470 /* CSViewController.m */; };
+		CE9A52BB13B7A46F00A56381 /* CSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A52B913B7A46F00A56381 /* CSModel.m */; };
+		CE9A52CE13B7A82C00A56381 /* CSTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A52CD13B7A82C00A56381 /* CSTableViewDataSource.m */; };
+		CE9A52DE13B838D000A56381 /* CSEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9A52DD13B838D000A56381 /* CSEditViewController.m */; };
+		CE9F281E1401056F00D79327 /* icon512.icns in Resources */ = {isa = PBXBuildFile; fileRef = CE9F281D1401056F00D79327 /* icon512.icns */; };
+		CE9F28201401414500D79327 /* colorscheme.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9F281F1401414500D79327 /* colorscheme.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		256AC3D80F4B6AC300CF3369 /* CSEditorAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEditorAppDelegate.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* CSEditorAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEditorAppDelegate.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* CSEditor_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEditor_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7F624D8513FD3F3800FD19D3 /* CSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTableViewController.h; sourceTree = "<group>"; };
+		7F624D8613FD3F3800FD19D3 /* CSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTableViewController.m; sourceTree = "<group>"; };
+		7F938420140E39B30028E87A /* CSEditColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEditColorCell.h; sourceTree = "<group>"; };
+		7F938421140E39B30028E87A /* CSEditColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEditColorCell.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CSEditor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CSEditor-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* CSEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE29E0F1140A14D9008ECF6E /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		CE4E81FF14020F9F008A0D8F /* CSRGBATableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRGBATableViewDataSource.h; sourceTree = "<group>"; };
+		CE4E820014020FA0008A0D8F /* CSRGBATableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSRGBATableViewDataSource.m; sourceTree = "<group>"; };
+		CE9224BD1409142800CDA95E /* CSMainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSMainWindow.h; sourceTree = "<group>"; };
+		CE9224BE1409142800CDA95E /* CSMainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSMainWindow.m; sourceTree = "<group>"; };
+		CE9224C01409677300CDA95E /* CSSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSSlider.h; sourceTree = "<group>"; };
+		CE9224C11409677300CDA95E /* CSSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSSlider.m; sourceTree = "<group>"; };
+		CE94F6A1140B521F00678470 /* CSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSViewController.h; sourceTree = "<group>"; };
+		CE94F6A2140B521F00678470 /* CSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSViewController.m; sourceTree = "<group>"; };
+		CE9A52B813B7A46F00A56381 /* CSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSModel.h; sourceTree = "<group>"; };
+		CE9A52B913B7A46F00A56381 /* CSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSModel.m; sourceTree = "<group>"; };
+		CE9A52BA13B7A46F00A56381 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		CE9A52CC13B7A82C00A56381 /* CSTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTableViewDataSource.h; sourceTree = "<group>"; };
+		CE9A52CD13B7A82C00A56381 /* CSTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTableViewDataSource.m; sourceTree = "<group>"; };
+		CE9A52DC13B838D000A56381 /* CSEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEditViewController.h; sourceTree = "<group>"; };
+		CE9A52DD13B838D000A56381 /* CSEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSEditViewController.m; sourceTree = "<group>"; };
+		CE9F281D1401056F00D79327 /* icon512.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon512.icns; sourceTree = "<group>"; };
+		CE9F281F1401414500D79327 /* colorscheme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = colorscheme.plist; path = res/colorscheme.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A52B713B7A2D100A56381 /* Model */,
+				CE9224B7140911D700CDA95E /* View */,
+				CE9A52DB13B8381600A56381 /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* CSEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ColorSchemeEditor */ = {
+			isa = PBXGroup;
+			children = (
+				CE9F281D1401056F00D79327 /* icon512.icns */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = ColorSchemeEditor;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A52BA13B7A46F00A56381 /* SynthesizeSingleton.h */,
+				256AC3F00F4B6AF500CF3369 /* CSEditor_Prefix.pch */,
+				256AC3D80F4B6AC300CF3369 /* CSEditorAppDelegate.h */,
+				256AC3D90F4B6AC300CF3369 /* CSEditorAppDelegate.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* CSEditor-Info.plist */,
+				CE9F281F1401414500D79327 /* colorscheme.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainWindow.xib */,
+				CE29E0F1140A14D9008ECF6E /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE9224B7140911D700CDA95E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9224BD1409142800CDA95E /* CSMainWindow.h */,
+				CE9224BE1409142800CDA95E /* CSMainWindow.m */,
+				CE9224C01409677300CDA95E /* CSSlider.h */,
+				CE9224C11409677300CDA95E /* CSSlider.m */,
+				7F938420140E39B30028E87A /* CSEditColorCell.h */,
+				7F938421140E39B30028E87A /* CSEditColorCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CE9A52B713B7A2D100A56381 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9A52B813B7A46F00A56381 /* CSModel.h */,
+				CE9A52B913B7A46F00A56381 /* CSModel.m */,
+				CE9A52CC13B7A82C00A56381 /* CSTableViewDataSource.h */,
+				CE9A52CD13B7A82C00A56381 /* CSTableViewDataSource.m */,
+				CE4E81FF14020F9F008A0D8F /* CSRGBATableViewDataSource.h */,
+				CE4E820014020FA0008A0D8F /* CSRGBATableViewDataSource.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE9A52DB13B8381600A56381 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE94F6A2140B521F00678470 /* CSViewController.m */,
+				CE94F6A1140B521F00678470 /* CSViewController.h */,
+				CE9A52DC13B838D000A56381 /* CSEditViewController.h */,
+				CE9A52DD13B838D000A56381 /* CSEditViewController.m */,
+				7F624D8513FD3F3800FD19D3 /* CSTableViewController.h */,
+				7F624D8613FD3F3800FD19D3 /* CSTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* CSEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "CSEditor" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSEditor;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ColorSchemeEditor;
+			productReference = 8D1107320486CEB800E47090 /* CSEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CSEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ColorSchemeEditor */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* CSEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainWindow.xib in Resources */,
+				CE9F281E1401056F00D79327 /* icon512.icns in Resources */,
+				CE9F28201401414500D79327 /* colorscheme.plist in Resources */,
+				CE29E0F2140A14D9008ECF6E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* CSEditorAppDelegate.m in Sources */,
+				CE9A52BB13B7A46F00A56381 /* CSModel.m in Sources */,
+				CE9A52CE13B7A82C00A56381 /* CSTableViewDataSource.m in Sources */,
+				CE9A52DE13B838D000A56381 /* CSEditViewController.m in Sources */,
+				7F624D8713FD3F3800FD19D3 /* CSTableViewController.m in Sources */,
+				CE4E820114020FA0008A0D8F /* CSRGBATableViewDataSource.m in Sources */,
+				CE9224BF1409142800CDA95E /* CSMainWindow.m in Sources */,
+				CE9224C21409677400CDA95E /* CSSlider.m in Sources */,
+				CE94F6A4140B521F00678470 /* CSViewController.m in Sources */,
+				7F938422140E39B30028E87A /* CSEditColorCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CSEditor_Prefix.pch;
+				INFOPLIST_FILE = "CSEditor-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = CSEditor;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CSEditor_Prefix.pch;
+				INFOPLIST_FILE = "CSEditor-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = CSEditor;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "CSEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CSEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
