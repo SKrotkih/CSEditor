@@ -1,7 +1,7 @@
 # CSEditor
 ============
 
-CSEditor was implemented for helping to create color shemes for iOS application.
+CSEditor is a MacOS application. Was implemented for helping to create color shemes for iOS application.
 
 ## Implements
 
@@ -17,7 +17,7 @@ Sergey Krotkih http://sergey-krotkih.blogspot.com
 
 ## License
 
-SwiftOrganizer is available under the MIT license. See the LICENSE file for more info.
+CSEditor is available under the MIT license. See the LICENSE file for more info.
 
 ## Update
 
