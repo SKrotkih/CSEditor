@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>54D54D87-5A6D-4666-94C5-482045572AA1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CSEditor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EF2644B61396DA64E83B0C430F5A70C53C236507</key>
+		<string>https://github.com/SKrotkih/CSEditor</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CSEditor.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EF2644B61396DA64E83B0C430F5A70C53C236507</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/SKrotkih/CSEditor</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EF2644B61396DA64E83B0C430F5A70C53C236507</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EF2644B61396DA64E83B0C430F5A70C53C236507</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CSEditor</string>
+		</dict>
+	</array>
+</dict>
+</plist>

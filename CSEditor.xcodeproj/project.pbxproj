@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DDD58160DA1D0A300B32029 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainWindow.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* CSEditorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* CSEditorAppDelegate.m */; };
+		7F5779E51B5D0537006EB1E5 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7F5779E41B5D0537006EB1E5 /* README.md */; };
 		7F624D8713FD3F3800FD19D3 /* CSTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F624D8613FD3F3800FD19D3 /* CSTableViewController.m */; };
 		7F938422140E39B30028E87A /* CSEditColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F938421140E39B30028E87A /* CSEditColorCell.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
@@ -37,6 +38,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		7F5779E41B5D0537006EB1E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7F624D8513FD3F3800FD19D3 /* CSTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSTableViewController.h; sourceTree = "<group>"; };
 		7F624D8613FD3F3800FD19D3 /* CSTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSTableViewController.m; sourceTree = "<group>"; };
 		7F938420140E39B30028E87A /* CSEditColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSEditColorCell.h; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		29B97314FDCFA39411CA2CEA /* ColorSchemeEditor */ = {
 			isa = PBXGroup;
 			children = (
+				7F5779E41B5D0537006EB1E5 /* README.md */,
 				CE9F281D1401056F00D79327 /* icon512.icns */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -270,6 +273,7 @@
 				CE9A52CE13B7A82C00A56381 /* CSTableViewDataSource.m in Sources */,
 				CE9A52DE13B838D000A56381 /* CSEditViewController.m in Sources */,
 				7F624D8713FD3F3800FD19D3 /* CSTableViewController.m in Sources */,
+				7F5779E51B5D0537006EB1E5 /* README.md in Sources */,
 				CE4E820114020FA0008A0D8F /* CSRGBATableViewDataSource.m in Sources */,
 				CE9224BF1409142800CDA95E /* CSMainWindow.m in Sources */,
 				CE9224C21409677400CDA95E /* CSSlider.m in Sources */,
